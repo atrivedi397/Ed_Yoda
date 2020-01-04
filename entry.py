@@ -26,9 +26,11 @@ class OldPeople:
     @staticmethod
     def oldies_available():
         cursor = old_Table.find({"availability": "Yes"}, {"name": 1, "_id": 0})
+        total_avail = []
         if cursor is not None:
             for value in cursor:
-                print(value)
+                total_avail.append(value)
+            return total_avail
         else:
             print("All elders are occupied")
 

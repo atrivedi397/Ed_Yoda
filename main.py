@@ -19,7 +19,8 @@ if __name__ == "__main__":
                            "\n9. List all available people"
                            "\n10. Show details of Young person"
                            "\n11. Show details of Old Person"
-                           "\n12. Exit\n\n"))
+                           "\n12. All Oldies which are taken care by any person"
+                           "\n13. Exit\n\n"))
 
         if action == 1:
             print("Provide the following details for old person to register\n")
@@ -55,7 +56,7 @@ if __name__ == "__main__":
 
         elif action == 6:
             name = input("Provide the name of the old person\n")
-            taken_care_by(name)
+            taken_care(name)
 
         elif action == 7:
             name = input("Provide the name of the young person\n")
@@ -66,7 +67,7 @@ if __name__ == "__main__":
             approval_by_old_person()
 
         elif action == 9:
-            old_person.oldies_available()
+            print(old_person.oldies_available())
 
         elif action == 10:
             name = input("Provide the name of the young person\n")
@@ -77,5 +78,8 @@ if __name__ == "__main__":
             old_person.show_details(name)
 
         elif action == 12:
+            print(all_people_being_taken_care())
+
+        elif action == 13:
             print("Thank You")
             exit(0)

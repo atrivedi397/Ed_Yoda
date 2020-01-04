@@ -7,6 +7,12 @@ This is task for the internship opportunity.
  2. Python 3.6
  3. PyMongo
  
+ **Assumptions**
+
+-> Names of the old and young people are already there in the database.
+
+-> Names are considered unique in both the tables.
+ 
  **Procedure:**
  
  1. Setup the Mongo server
