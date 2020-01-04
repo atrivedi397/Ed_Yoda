@@ -1,4 +1,4 @@
-[{"_id":{"$oid":"5e10e8cd57a2b942e7148dc7"},"name":"ravish","taking_care_of":["abc","Hari P.","def","ghi"],"requested_oldies":[],"ratings":{},"reviews":{}},
-{"_id":{"$oid":"5e10e8d557a2b942e7148dc8"},"name":"sudhir","taking_care_of":["jkl"],"requested_oldies":["ghi","mno","pqr","stu"],"ratings":{},"reviews":{}},
-{"_id":{"$oid":"5e10e8e057a2b942e7148dc9"},"name":"arnab","taking_care_of":[],"requested_oldies":["yz","abc"],"ratings":{},"reviews":{}}
+[{"name":"ravish","taking_care_of":["abc","Hari P.","def","ghi"],"requested_oldies":[],"ratings":{},"reviews":{}},
+{"name":"sudhir","taking_care_of":["jkl"],"requested_oldies":["ghi","mno","pqr","stu"],"ratings":{},"reviews":{}},
+{"name":"arnab","taking_care_of":[],"requested_oldies":["yz","abc"],"ratings":{},"reviews":{}}
 ]
