@@ -12,7 +12,7 @@ class Test(unittest.TestCase):
                                                          {'name': 'ghi', 'taken_care_by': 'ravish'},
                                                          {'name': 'jkl', 'taken_care_by': 'sudhir'}], "Correct")
 
-    def test_sum_tuple(self):
+    def test_young_taking_care(self):
         names = ["ravish", "sudhir", "arnab"]
         outputs = [[{'name': 'ravish', 'taking_care_of': ['abc', 'Hari P.', 'def', 'ghi']}],
                    [{'name': 'sudhir', 'taking_care_of': ['jkl']}],

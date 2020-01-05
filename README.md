@@ -4,7 +4,7 @@ This is task for the internship opportunity.
  
  **Requirements:**
  1. MongoDB server
- 2. MongoDB Compass
+ 2. MongoDB Compass (Optional)
  2. Python 3.6
  3. PyMongo
  
@@ -18,24 +18,20 @@ This is task for the internship opportunity.
  
  1. Setup the Mongo server
  
- 2. Load Ed_Yoda/old_data.json into "old_people_collection" collection using Compass
+ 2. Run the main.py (It'll automatically save some data into MongoDB and run the tests for the first time.)
  
- 3. Load Ed_Yoda/young_data.json into "young_people_collection" collection using Compass
+ 3.1 Register the Old People
  
- 4. Run the main.py
+ 3.2 Register the Young People
  
- 5.1 Register the Old People
+ 3.3 Get the list of Old People who are available
  
- 5.2 Register the Young People
+ 3.4 Make request as a Young Person
  
- 5.3 Get the list of Old People who are available
+ 3.5 Approve the request as the Old Person
  
- 5.4 Make request as a Young Person
+ 3.6 Give review and feedback as Young Person
  
- 5.5 Approve the request as the Old Person
+ 3.7 Give review and feedback as Old Person
  
- 5.6 Give review and feedback as Young Person
- 
- 5.7 Give review and feedback as Old Person
- 
- 6. Exit
+ 4. Exit

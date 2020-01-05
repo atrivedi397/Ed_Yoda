@@ -1,10 +1,23 @@
 from make_requests_and_approve import *
+from default_DB_Values import *
+from test import *
 
 old_person = OldPeople(None, None, 0)
 young_person = YoungPeople(None)
 
 
-if __name__ == "__main__":
+def run_tests():
+    print("Saving the default data and running tests")
+    old_Table.insert_many(old_data)
+    young_Table.insert_many(young_data)
+    test_obj = Test()
+    test_obj.test_people_taking_care_elders()
+    test_obj.test_young_taking_care()
+
+
+def operations():
+    global old_person
+    global young_person
     while True:
 
         action = int(input("\nWhat do you want to do?"
@@ -83,3 +96,12 @@ if __name__ == "__main__":
         elif action == 13:
             print("Thank You")
             exit(0)
+
+
+if __name__ == "__main__":
+    if "CareGiving" not in client.list_database_names():
+        run_tests()
+        print(f"All people being taken care {all_people_being_taken_care()}")
+        operations()
+    else:
+        operations()
