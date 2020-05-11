@@ -97,7 +97,7 @@ def operations():
             print("Thank You")
             exit(0)
 
-
+"""
 if __name__ == "__main__":
     if "CareGiving" not in client.list_database_names():
         run_tests()
@@ -105,3 +105,4 @@ if __name__ == "__main__":
         operations()
     else:
         operations()
+"""
